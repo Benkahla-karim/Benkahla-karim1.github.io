@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.nike {
+    width: 100%;
+    height: 100vh;
+    background-color: #1e2227;
+}
+.contuiner {
+    padding-left:80px ;
+    padding-right: 80px;
+}
+.nike-header .contuiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nike-header .contuiner .logo {
+    width: 100px;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+.nike-header .contuiner .link {
+    padding: 20px 0px;
+}
+.nike-header .contuiner .link img {
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.nike-row  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.nike-row  .col-1 {
+    flex-basis: 50%;
+    background-color: #1e2227;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:80px ;
+}
+.nike-row  .col-1 h1 {
+    font-size: 63px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.nike-row  .col-1 p {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.nike-row  .col-1 .prix {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.nike-row  .col-1 button {
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    width: fit-content;
+    text-transform: uppercase;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.nike-row  .col-1 button:hover {
+    transform: translateY(-5px);
+}
+
+
+.nike-row  .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    flex-basis: 50%;
+   position: relative;
+}
+.nike-row  .col-2 .addi {
+    width: 80%;
+    margin-top: 60px;
+    transform: rotate(-15deg);
+    cursor: pointer;
+    z-index: 2;
+}
+.nike-row  .col-2  .list-nike {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 90px;
+}
+.nike-row  .col-2 .small-nike {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.nike-row  .col-2 .small-nike img {
+    width: 150%;
+    transform: rotate(-15deg);
+}
+.nike-row  .col-2 p {
+    position: absolute;
+    top: 80px;
+    font-size: 100px;
+    font-weight: bold;
+    left: 40px;
+    color: white;
+    opacity: 0.3;
+}
+
+
+
